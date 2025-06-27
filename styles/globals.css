@@ -26,8 +26,16 @@ li {
   padding: 0;
 }
 
+p {
+  line-height: 21px;
+}
+
 a {
   color: inherit;
+}
+
+img {
+  inline-size: 100%;
 }
 
 button,
@@ -35,11 +43,21 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 ul,
 ol {
   list-style: none;
+}
+
+:focus, :focus-visible, :focus-within {
+  outline: none;
 }
 
 .visually-hidden {
