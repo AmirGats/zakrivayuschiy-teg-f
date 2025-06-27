@@ -192,7 +192,7 @@
 }
 
 .like-icon:active .core,
-.like-icon.is-liked .core  {
+.like-icon.is-liked .core {
   fill: var(--active-color);
   transition-delay: 0s;
 }
@@ -245,7 +245,7 @@
 .card__like-button::before,
 .btn-save::before,
 .dialog__btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -254,10 +254,10 @@
   transform: scaleX(0);
   background-color: var(--background-color-accent);
   transform-origin: left;
-  transition: all 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.card__like-button:hover::before, 
+.card__like-button:hover::before,
 .btn-save:hover::before,
 .dialog__btn:hover::before {
   background-color: var(--accent-color);
@@ -271,7 +271,7 @@
 }
 
 .card__icon-button {
-  line-height: 0; 
+  line-height: 0;
   transition: outline 0.3s ease;
 }
 
@@ -281,7 +281,7 @@
 
 .button__text {
   color: var(--background-color-accent, #fff);
-  mix-blend-mode: difference; 
+  mix-blend-mode: difference;
   z-index: 2;
 }
 
