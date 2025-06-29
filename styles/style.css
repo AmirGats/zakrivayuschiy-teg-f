@@ -257,7 +257,12 @@
 .button__text {
   color: var(--background-color-accent, #fff);
   mix-blend-mode: difference;
-  z-index: 2;
+}
+
+.btn-icon {
+  mix-blend-mode: difference;
+  stroke: var(--background-color-accent);
+  inline-size: 21px;
 }
 
 .button__text,
@@ -283,12 +288,6 @@
   align-items: center;
   gap: 8px;
   transition: box-shadow 0.3s ease;
-}
-
-.btn-icon {
-  mix-blend-mode: difference;
-  stroke: var(--background-color-accent);
-  inline-size: 21px;
 }
 
 .dialog__save[open] {
