@@ -126,7 +126,7 @@
   margin-block-start: 30px;
   margin-block-end: 25px;
   padding: 0 23px;
-  font-variation-settings: "wght" var(--wght-norm)
+  font-variation-settings: "wght" var(--wght-norm);
 }
 
 .card__content p:not(:last-child) {
@@ -266,7 +266,7 @@
   font-family: var(--font-accent), sans-serif;
 }
 
-.main-dialog {  
+.main-dialog {
   margin-block-end: 69px;
   display: flex;
   justify-content: center;
