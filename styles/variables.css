@@ -2,9 +2,12 @@
   --background-color-accent: #fff;
   --contour-color: #000;
   --active-color: #ff0000;
+  --animation-fill-color: #ff0000;
   --accent-color: #000;
   --font-accent: "Press Start 2P";
   --font-main: "Inter";
+  --wght-bold: 700;
+  --wght-norm: 400;
   --font-size-normal: 18px;
   --font-size-small: 14px;
   --background: repeating-linear-gradient(
